@@ -1,13 +1,14 @@
-"use strict";
+window.onload = function(){
+  
+  const board = document.getElementById("#board");
+  let square = document.getElementById("div");
 
-const x_class = 'x';
-const o_class ='o';
-const square = document.querySelectorAll('#board');
-const board = document.getElementById('#board'); 
-const btn = document.getElementById('.btn');
 
-function startGame(){
-btn.addEventListener('click');
-square.classList.addEventListener("")
+  document.querySelector("#board").className = ("board");
 
+  let e = querySelectorAll("board > div");
+
+  for(e=0; e<=9; e++){
+    document.querySelector("#board").classList.add("square");
+  }
 }
