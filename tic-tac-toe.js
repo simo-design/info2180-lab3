@@ -11,7 +11,7 @@ window.onload = function()
   for (let e = 0; e <= 9; e++)
     {
       
-      board.getElementsByTagName("div")[e].setAttribute("class" , "square")
+      board.getElementsByTagName("div")[e].setAttribute("class" , "square");
 
     }
 
