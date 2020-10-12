@@ -1,15 +1,19 @@
-window.onload = function(){
+window.onload = function()
+{
+  const board = document.getElementById("board");
+
+  const btn = document.getElementById(".btn");
   
-  const board = document.getElementById("#board");
-  let square = [document.getElementById("#board > div")];
+  
+  board.setAttribute("class", "board");
 
+  
+  for (let e = 0; e <= 9; e++)
+    {
+      
+      board.getElementsByTagName("div")[e].setAttribute("class" , "square")
 
-  document.querySelector("#board > div").className = ("square");
+    }
 
-
-
-  for(let e = 0; e <= square.length; e++){
-    document.querySelector("#board").classList.add("square");
-
-  }
+  
 }
